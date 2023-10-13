@@ -9,7 +9,7 @@ pipeline {
   }
   stage('build project') {		// 编译打包 
    steps {   		 	//具体实施步骤
-       mvn clean build 	 	// 打包命令
+    echo 'mvn clean package' 	 	// 打包命令
    }
   }
   stage('publish project') { 		// 部署上线 
