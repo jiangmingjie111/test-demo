@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello, Welcome to Aalaxy" }');
+    res.send('{ "response": "Hello, Welcome to Aalaxy,Today is Monday" }');
 });
 
 app.get('/will', function (req, res) {
